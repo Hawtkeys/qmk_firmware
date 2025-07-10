@@ -1,6 +1,6 @@
 # Shorty K1
 
-![Shorty K1 by hawtkeys.com](https://hawtkeys.com/wp-content/uploads/2025/06/12-crop2.png)
+![Shorty K1 by hawtkeys.com](https://i.ibb.co/67LtSzQB/1.png)
 
 The Shorty K1 is a 3x1 customizable macropad designed for productivity, gaming, and creative workflows, featuring programmable keys and rotary knobs.
 
@@ -17,6 +17,10 @@ Flashing example for this keyboard:
     make shorty:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+
+## Remap Config
+
+* JSON schema reference: https://github.com/remap-keys/remap/blob/c0ef7ca3242883733b7c0a1b63a7b5407e16b62a/src/services/storage/assets/keyboard-definition-schema.json#L15
 
 ## Bootloader
 
