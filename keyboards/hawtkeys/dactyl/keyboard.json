@@ -1,0 +1,116 @@
+{
+    "keyboard_name": "Hawtkeys Dactyl",
+    "manufacturer": "Hawtkeys",
+    "url": "https://www.hawtkeys.com",
+    "maintainer": "Yash",
+    "usb": {
+        "vid": "0x5454",
+        "pid": "0x3435",
+        "device_version": "0.0.1"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP5", "GP6", "GP7", "GP8", "GP9"],
+        "rows": ["GP24", "GP23", "GP22", "GP21", "GP20", "GP19", "GP18"]
+    },
+    "features": {
+        "console": false
+    },
+    "bootmagic": {
+        "enabled": true,
+        "matrix": [1, 0]
+    },
+    "split": {
+        "enabled": true,
+        "serial": {
+            "pin": "GP1",
+            "driver": "vendor"
+        },
+        "bootmagic": {
+            "matrix": [7, 0]
+        }
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 1], "x": 0, "y": 0, "hand": "R" },
+                { "matrix": [0, 2], "x": 1, "y": 0 },
+                { "matrix": [0, 3], "x": 2, "y": 0 },
+                { "matrix": [0, 4], "x": 3, "y": 0 },
+
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [1, 3], "x": 3, "y": 1 },
+                { "matrix": [1, 4], "x": 4, "y": 1 },
+
+
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 },
+                { "matrix": [2, 3], "x": 3, "y": 2 },
+                { "matrix": [2, 4], "x": 4, "y": 2 },
+
+
+                { "matrix": [3, 0], "x": 0, "y": 3 },
+                { "matrix": [3, 1], "x": 1, "y": 3 },
+                { "matrix": [3, 2], "x": 2, "y": 3 },
+                { "matrix": [3, 3], "x": 3, "y": 3 },
+                { "matrix": [3, 4], "x": 4, "y": 3 },
+
+
+                { "matrix": [4, 0], "x": 0, "y": 4 },
+                { "matrix": [4, 1], "x": 1, "y": 4 },
+                { "matrix": [4, 2], "x": 2, "y": 4 },
+                { "matrix": [4, 3], "x": 3, "y": 4 },
+                { "matrix": [4, 4], "x": 4, "y": 4 },
+
+
+                { "matrix": [5, 3], "x": 0, "y": 5 },
+                { "matrix": [5, 4], "x": 1, "y": 5 },
+
+                { "matrix": [6, 3], "x": 0, "y": 6 },
+                { "matrix": [6, 4], "x": 1, "y": 6, "hand": "L" },
+
+                { "matrix": [7, 0], "x": 0, "y": 7, "hand": "R"},
+                { "matrix": [7, 1], "x": 1, "y": 7 },
+                { "matrix": [7, 2], "x": 2, "y": 7 },
+                { "matrix": [7, 3], "x": 3, "y": 7 },
+
+                { "matrix": [8, 0], "x": 0, "y": 8 },
+                { "matrix": [8, 1], "x": 1, "y": 8 },
+                { "matrix": [8, 2], "x": 2, "y": 8 },
+                { "matrix": [8, 3], "x": 3, "y": 8 },
+                { "matrix": [8, 4], "x": 4, "y": 8 },
+
+
+                { "matrix": [9, 0], "x": 0, "y": 9 },
+                { "matrix": [9, 1], "x": 1, "y": 9 },
+                { "matrix": [9, 2], "x": 2, "y": 9 },
+                { "matrix": [9, 3], "x": 3, "y": 9 },
+                { "matrix": [9, 4], "x": 4, "y": 9 },
+
+                { "matrix": [10, 0], "x": 0, "y": 10 },
+                { "matrix": [10, 1], "x": 1, "y": 10 },
+                { "matrix": [10, 2], "x": 2, "y": 10 },
+                { "matrix": [10, 3], "x": 3, "y": 10 },
+                { "matrix": [10, 4], "x": 4, "y": 10 },
+
+                { "matrix": [11, 0], "x": 0, "y": 11 },
+                { "matrix": [11, 1], "x": 1, "y": 11 },
+                { "matrix": [11, 2], "x": 2, "y": 11 },
+                { "matrix": [11, 3], "x": 3, "y": 11 },
+                { "matrix": [11, 4], "x": 4, "y": 11 },
+
+                { "matrix": [12, 0], "x": 0, "y": 12 },
+                { "matrix": [12, 1], "x": 1, "y": 12 },
+
+                { "matrix": [13, 0], "x": 0, "y": 13 },
+                { "matrix": [13, 1], "x": 1, "y": 13, "hand": "R" }
+
+            ]
+        }
+    }
+}
